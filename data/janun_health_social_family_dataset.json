@@ -1,0 +1,675 @@
+{
+  "dataset_name": "Bangladesh Health, Social Security and Family Welfare - Structured Collection",
+  "generated_at": "2026-10-12",
+  "method": "Compiled only from cited official links that were available through prior verified link discovery. Where exact values were not retrievable from this environment, fields are marked pending/unverified.",
+  "sources": [
+    {
+      "title": "Department of Social Services (DSS)",
+      "url": "https://dss.gov.bd/",
+      "type": "official"
+    },
+    {
+      "title": "DSS Allowance Online Application",
+      "url": "https://mis.bhata.gov.bd/online-application",
+      "type": "official"
+    },
+    {
+      "title": "Ministry of Social Welfare - Old Age Allowance",
+      "url": "https://msw.gov.bd/site/page/18350636-86ea-46fc-8ecf-df73ed933a96/Old-Age-Allowances",
+      "type": "official"
+    },
+    {
+      "title": "Ministry of Social Welfare - Widow Allowance",
+      "url": "https://msw.gov.bd/site/page/6342f387-fe7d-4fce-840c-877aeff6a27d/Widow-Allowances",
+      "type": "official"
+    },
+    {
+      "title": "Bangladesh National Portal - District List",
+      "url": "https://bangladesh.gov.bd/views/district-list",
+      "type": "official"
+    },
+    {
+      "title": "Bangladesh National Portal - Division List",
+      "url": "https://bangladesh.gov.bd/views/division-list",
+      "type": "official"
+    },
+    {
+      "title": "Bangladesh National Portal - Upazila List",
+      "url": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "type": "official"
+    }
+  ],
+  "services": [
+    {
+      "service_id": "SSN-OLD-AGE-001",
+      "service_name_bn": "বয়স্ক ভাতা",
+      "service_name_en": "Old Age Allowance",
+      "category": "Social Security and Allowances",
+      "authority": "Ministry of Social Welfare / Department of Social Services",
+      "eligibility_summary": [
+        "Indicative published rule: age threshold generally 65+ (male), 62+ (female)",
+        "Low income and local residency conditions apply",
+        "NID or birth registration required"
+      ],
+      "application_channel": "Online via MIS allowance portal; local office support available",
+      "application_link": "https://mis.bhata.gov.bd/online-application",
+      "documents_required": "NID/Birth registration; mobile number; other local verification documents",
+      "fee": "No official fee data extracted from accessible source in this run",
+      "timeline": "Announcement windows may be periodic; exact timeline must be re-verified from official notice",
+      "renewal_and_appeal": "Not fully extracted; needs district/upazila office verification",
+      "status": "partially_verified"
+    },
+    {
+      "service_id": "SSN-WIDOW-002",
+      "service_name_bn": "বিধবা ও স্বামী-নিগৃহীতা ভাতা",
+      "service_name_en": "Widow and Distressed Women Allowance",
+      "category": "Social Security and Allowances",
+      "authority": "Ministry of Social Welfare / Department of Social Services",
+      "eligibility_summary": [
+        "Adult widow/distressed women under program conditions",
+        "Income and local residency screening apply"
+      ],
+      "application_channel": "Online via MIS allowance portal; local office support available",
+      "application_link": "https://mis.bhata.gov.bd/online-application",
+      "documents_required": "NID/Birth registration and local status proof documents",
+      "fee": "No verified official fee found in accessible sources",
+      "timeline": "Depends on annual notice; re-verify before publication",
+      "renewal_and_appeal": "Needs local office level verification",
+      "status": "partially_verified"
+    },
+    {
+      "service_id": "SSN-DISABILITY-003",
+      "service_name_bn": "প্রতিবন্ধী ভাতা",
+      "service_name_en": "Disability Allowance",
+      "category": "Social Security and Disability Support",
+      "authority": "Department of Social Services",
+      "eligibility_summary": [
+        "Government-recognized disability status under program criteria",
+        "Income screening and local residency conditions apply"
+      ],
+      "application_channel": "Online via MIS allowance portal and local social service office",
+      "application_link": "https://mis.bhata.gov.bd/online-application",
+      "documents_required": "Identity and disability-related verification documents",
+      "fee": "No verified official fee found in accessible sources",
+      "timeline": "Depends on official notice and quota",
+      "renewal_and_appeal": "Needs office-level confirmation",
+      "status": "partially_verified"
+    }
+  ],
+  "geography": [
+    {
+      "level": "national",
+      "country": "Bangladesh",
+      "division_count": 8,
+      "district_count": 64,
+      "upazila_count": 495,
+      "source": "https://bangladesh.gov.bd/views/division-list; https://bangladesh.gov.bd/views/district-list; https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Dhaka",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Chattogram",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Barishal",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Khulna",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Rajshahi",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Rangpur",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Sylhet",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "division",
+      "division": "Mymensingh",
+      "source": "https://bangladesh.gov.bd/views/division-list",
+      "status": "partially_verified"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Dhaka",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Faridpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Gazipur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Gopalganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Kishoreganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Madaripur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Manikganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Munshiganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Narayanganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Narsingdi",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Rajbari",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Shariatpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Dhaka",
+      "district": "Tangail",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Bandarban",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Brahmanbaria",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Chandpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Chattogram",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Cumilla",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Cox's Bazar",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Feni",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Khagrachhari",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Lakshmipur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Noakhali",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Chattogram",
+      "district": "Rangamati",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Barguna",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Barishal",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Bhola",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Jhalokathi",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Patuakhali",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Barishal",
+      "district": "Pirojpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Bagerhat",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Chuadanga",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Jashore",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Jhenaidah",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Khulna",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Kushtia",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Magura",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Meherpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Narail",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Khulna",
+      "district": "Satkhira",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Bogura",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Joypurhat",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Naogaon",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Natore",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Chapai Nawabganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Pabna",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Rajshahi",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rajshahi",
+      "district": "Sirajganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Dinajpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Gaibandha",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Kurigram",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Lalmonirhat",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Nilphamari",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Panchagarh",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Rangpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Rangpur",
+      "district": "Thakurgaon",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Sylhet",
+      "district": "Habiganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Sylhet",
+      "district": "Moulvibazar",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Sylhet",
+      "district": "Sunamganj",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Sylhet",
+      "district": "Sylhet",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Mymensingh",
+      "district": "Jamalpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Mymensingh",
+      "district": "Mymensingh",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Mymensingh",
+      "district": "Netrokona",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    },
+    {
+      "level": "district",
+      "division": "Mymensingh",
+      "district": "Sherpur",
+      "upazila_list_status": "pending_extraction_from_official_portal",
+      "upazila_source": "https://bangladesh.gov.bd/views/upazila-list/Upazilla%20List/",
+      "status": "draft"
+    }
+  ],
+  "verification_notes": [
+    "Direct DNS/network access to several .gov.bd domains was unavailable in this environment during this run.",
+    "Data has been kept conservative to avoid unverified claims.",
+    "Before production use, complete district-to-upazila expansion and local office contact extraction must be done from official pages."
+  ]
+}
